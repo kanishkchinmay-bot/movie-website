@@ -35,6 +35,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    
+}
+.box:hover{
+    box-shadow: 0px 10px 25px rgba(0, 0, 255, 0.8);
+    
 }
 .box{
     height: 40vh;
@@ -42,6 +47,8 @@
     border: 2px solid black;
     border-radius: 10px;
     position: relative;
+    box-shadow: 0px 10px 25px rgba(0, 0, 255, 0.4);
+     transition: 0.3s ease;
 }
 img{
     height: 40vh;
@@ -72,7 +79,7 @@ img{
 }
 .navbar{
    height: 60px;
-    background-color: #0a2a3c;
+    background-color: #2f1a66;
     color: white;
     display: flex;
     align-items: center;
@@ -87,7 +94,6 @@ img{
     align-items: center;
     padding: 20px;
     margin: 20px;
-     /* background: linear-gradient(to right, #141e30, #243b55); */
 
 }
 .nav-links a:hover{
@@ -114,4 +120,30 @@ img{
 .login-btn:hover {
     background-color: #f1f1f1;
     transform: scale(1.05);
+}
+.searchinput{
+
+  height: 40px;
+min-width: 200px;;
+width: 30%;
+display: flex;
+align-items: center;
+  
+}
+.ss{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.3s ease;
+}
+.row{
+    display: flex;
+}
+.btns{
+    font-size: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2f1a66;
+    color: #f1f1f1;
+    
 }
